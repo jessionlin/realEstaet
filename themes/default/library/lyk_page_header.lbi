@@ -1,0 +1,17 @@
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<div id="lyk_header">
+    <div id="lyk_top">
+        <div id="lyk_top_left">
+             <div id="lyk_title">{insert name='member_info_wel'} </div>
+        </div>
+        <div id="lyk_top_right">
+        {insert name='member_info'}
+        </div>
+    </div>
+    <div id="lyk_bottom">
+        <div id="lyk_log_pic"><a href="../index.php" name="top"><img src="../images/logo.gif" alt="website logo" title="linjiaxuan"/></a></div>
+    </div>
+
+</div>
+
+

@@ -9,11 +9,55 @@ Logo filename: logo.gif
 Template Type: type_0
 */
 
+/* ==================
+修改样式： lyk
+==================== */
+#lyk_header{
+    width: 100%;
+    height: 200px;
+}
+#lyk_top{
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFE1;
+    box-shadow: 0 2px 2px #FFFFCE;
+}
+#lyk_top_left{
+    width: 300px;
+    height: 100%;
+    margin-left: 60px;
+}
+#lyk_log_pic{
+
+}
+
+#lyk_title{
+    width: 100px;
+    height: 40px;
+}
+
+#lyk_welcome{
+    width: 100px;
+    height: 40px;
+
+}
+#lyk_top_right{
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-right: 60px;
+}
+
+
+
+
+
+
 
 /* ====================
      公共样式
 ==================== */
-body{background:#fff; font-size:12px; font-family:"宋体",Verdana, Arial; line-height:150%; margin:5px 0 0 0; padding:0; color:#404040;}
+body{background:#fff; font-size:12px; font-family:"宋体",Verdana, Arial; line-height:150%; margin:0; padding:0; color:#404040;}
 div{margin:0 auto; padding:0;}
 h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
 margin:0; padding:0; border:none; list-style-type:none;
