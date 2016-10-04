@@ -168,8 +168,35 @@ Template Type: type_0
     cursor: pointer;
 }
 
+/* ====================
+    修改样式:ljx
+==================== */
+.ljx_areaL{
+    width: 200px;
+    position:relative;
+    float: left;
+}
+.ljx_clearfix{
+    width: 1200px;
+    height: 1658px;
+    position:relative;
+    margin-top: 15px;
+}
 
+.ljx_center{
+    width: 1215px;
+    margin-top: 0px;
+    height: auto;
+}
+.ljx_photo{
+    width:100%;
+    height: 100%;
+}
 
+.ljx_photo img{
+    width:100%;
+    height: 100%;
+}
 
 
 
@@ -188,7 +215,7 @@ h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
 margin:0; padding:0; border:none; list-style-type:none;
 }
 .block{
-  width:960px; height:auto;
+  width:1200px; height:1658px;
 }
 .f_l{float:left;}
 .f_r{float:right;}

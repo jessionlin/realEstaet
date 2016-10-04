@@ -1,10 +1,10 @@
-imgUrl1="data/afficheimg/20081027angsif.jpg";
+imgUrl1="data/afficheimg/first.png";
 imgtext1="ECShop";
 imgLink1=escape("http://www.ecshop.com");
-imgUrl2="data/afficheimg/20081027wdwd.jpg";
+imgUrl2="data/afficheimg/second.png";
 imgtext2="WDWD";
 imgLink2=escape("http://www.wdwd.com");
-imgUrl3="data/afficheimg/20081027xuorxj.jpg";
+imgUrl3="data/afficheimg/third.png";
 imgtext3="ECShop";
 imgLink3=escape("http://help.ecshop.com/index.php?doc-view-108.htm");
 

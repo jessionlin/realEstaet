@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:58:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/cart.lbi";i:3;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/category_tree.lbi";i:4;s:66:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/top10.lbi";i:5;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/promotion_info.lbi";i:6;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/order_query.lbi";i:7;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/invoice_query.lbi";i:8;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/vote_list.lbi";i:9;s:71:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/email_list.lbi";i:10;s:69:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/index_ad.lbi";i:11;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/new_articles.lbi";i:12;s:80:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_promotion.lbi";i:13;s:67:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/brands.lbi";i:14;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_best.lbi";i:15;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_new.lbi";i:16;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_hot.lbi";i:17;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:18;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:19;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:20;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475583664;s:8:"maketime";i:1475580064;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/cart.lbi";i:4;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/category_tree.lbi";i:5;s:66:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/top10.lbi";i:6;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/promotion_info.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/order_query.lbi";i:8;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/invoice_query.lbi";i:9;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/vote_list.lbi";i:10;s:71:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/email_list.lbi";i:11;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/new_articles.lbi";i:12;s:80:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_promotion.lbi";i:13;s:67:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/brands.lbi";i:14;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_best.lbi";i:15;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_new.lbi";i:16;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_hot.lbi";i:17;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:18;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:19;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:20;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475592353;s:8:"maketime";i:1475588753;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -69,9 +69,18 @@
         </form>
     </div>
 </div><div class="blank"></div>
-<div class="block clearfix">
+  <div class="ljx_center">
+        <div class="ljx_f_l" id="focus">
+                 <script type="text/javascript">
+  var swf_width=1200;
+  var swf_height=496;
+  </script>
+  <script type="text/javascript" src="data/flashdata/dynfocus/cycle_image.js"></script>
+        </div>
+  </div>
+<div class="block ljx_clearfix">
   
-  <div class="AreaL">
+  <div class="ljx_areaL">
     
     <div class="box">
      <div class="box_1">
@@ -281,13 +290,6 @@ function check_email()
    
     <div class="box clearfix">
      <div class="box_1 clearfix">
-       <div class="f_l" id="focus">
-         <script type="text/javascript">
-  var swf_width=484;
-  var swf_height=200;
-  </script>
-  <script type="text/javascript" src="data/flashdata/dynfocus/cycle_image.js"></script>
-       </div>
        
        <div id="mallNews" class="f_r">
         <div class="NewsTit"></div>

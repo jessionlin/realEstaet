@@ -55,8 +55,7 @@ function show_flash()
     var stop_time=3000; //图片停留时间(1000为1秒钟)
     var show_text=1; //是否显示文字标签 1显示 0不显示
     var txtcolor="000000"; //文字色
-    var bgcolor="DDDDDD"; //背景色
-
+    var bgcolor="FFCCCC"; //背景色DDDDDD
     var text_height = 18;
     var focus_width = swf_width;
     var focus_height = swf_height - text_height;

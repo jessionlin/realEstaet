@@ -95,7 +95,7 @@ if ($act == 'cat_rec')
 /* 缓存编号 */
 $cache_id = sprintf('%X', crc32($_SESSION['user_rank'] . '-' . $_CFG['lang']));
 
-if (!$smarty->is_cached('index.dwt', $cache_id))
+if (!$smarty->is_cached('ljx_index.dwt', $cache_id))
 {
     assign_template();
 
@@ -158,7 +158,7 @@ if (!$smarty->is_cached('index.dwt', $cache_id))
     assign_dynamic('index');
 }
 
-$smarty->display('index.dwt', $cache_id);
+$smarty->display('ljx_index.dwt', $cache_id);
 
 /*------------------------------------------------------ */
 //-- PRIVATE FUNCTIONS
