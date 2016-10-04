@@ -1,17 +1,53 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <div id="lyk_header">
     <div id="lyk_top">
-        <div id="lyk_top_left">
-             <div id="lyk_title">{insert name='member_info_wel'} </div>
+        <div id="lyk_top_inner">
+            <div id="lyk_top_left">{insert name='member_info_wel'} </div>
+             <div id="lyk_top_right">{insert name='member_info'}</div>
+             <div id="lyk_top_center">
+                <!--{if $navigator_list.top}-->
+                <!-- {foreach name=nav_top_list from=$navigator_list.top item=nav} -->
+                    <a href="{$nav.url}" <!-- {if $nav.opennew eq 1} --> target="_blank" <!-- {/if} -->>{$nav.name}</a>
+                 <!-- {/foreach} -->
+                 <!-- {/if} -->
+             </div>
         </div>
-        <div id="lyk_top_right">
-        {insert name='member_info'}
-        </div>
-    </div>
+   </div>
     <div id="lyk_bottom">
-        <div id="lyk_log_pic"><a href="../index.php" name="top"><img src="../images/logo.gif" alt="website logo" title="linjiaxuan"/></a></div>
+        <a id="lyk_log_pic" href="../index.php" name="top"><img src="../images/lyk_main_logo.jpg" alt="website logo"/></a>
+        <div id="lyk_cart_title">
+            产品分类
+            <ul id="lyk_cart">
+                <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+                     <a href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if}>{$nav.name}</a>
+                <!-- {/foreach} -->
+            </ul>
+        </div>
+        <form id="lyk_search" method="get" action="search.php">
+            <ul id="lyk_search_dir">
+                <!--{foreach name=list from=$lyk_category_list item=nav}-->
+                     <li onclick="addId(this)">{$nav}</li>
+                <!--{/foreach}-->
+            </ul>
+            <script type="text/javascript">
+                {literal}
+                    <!--
+                    var lis = document.getElementById("lyk_search_dir").getElementsByTagName("li");
+                    lis[0].id = "lyk_search_dir_on";
+                    function addId(e)
+                    {
+                        for ( var i=0; i<lis.length; i++ )
+                        {
+                            lis[i].id = "";
+                        }
+                        e.id = "lyk_search_dir_on";
+                    }
+                    -->
+                    {/literal}
+            </script>
+            <input name="keywords" type="text" id="lyk_keywords" value="{$search_keywords|escape}"/>
+            <input name="imageField" type="submit" id="lyk_submit" value="搜索" />
+        </form>
     </div>
 
 </div>
-
-

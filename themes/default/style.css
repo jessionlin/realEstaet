@@ -22,31 +22,156 @@ Template Type: type_0
     background-color: #FFFFE1;
     box-shadow: 0 2px 2px #FFFFCE;
 }
+#lyk_top_inner{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
 #lyk_top_left{
-    width: 300px;
+    float: left;
+    width: 100px;
     height: 100%;
-    margin-left: 60px;
-}
-#lyk_log_pic{
-
+    line-height: 40px;
 }
 
-#lyk_title{
-    width: 100px;
-    height: 40px;
-}
-
-#lyk_welcome{
-    width: 100px;
-    height: 40px;
-
-}
 #lyk_top_right{
-    width: 100px;
+    width: 200px;
     height: 40px;
     float: right;
-    margin-right: 60px;
 }
+
+#lyk_top_right a{
+    margin-top: 10px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+
+#lyk_top_center{
+    /*clear: both;*/
+    float: left;
+    width: 400px;
+    margin: 0 auto;
+    height: 40px;
+}
+#lyk_top_center a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    line-height: 40px;
+    width: 100px;
+    text-align: center;
+    color: #9CCBD6;
+}
+#lyk_top_center a:hover{
+    color: #FFFFE1;
+    font-weight: bold;
+    background-color: #cc4444;
+}
+
+#lyk_bottom{
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+}
+#lyk_log_pic{
+    float: left;
+}
+#lyk_log_pic img{
+    width: 90px;
+    height: 90px;
+}
+#lyk_cart_title{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width: 160px;
+    height: 40px;
+    margin-top: 35px;
+    background-color: #FE596A;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+#lyk_cart_title:hover #lyk_cart{
+    display: block;
+}
+#lyk_cart{
+    width: 1000px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: none;
+}
+#lyk_cart a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f1bfc0;
+    border: 1px dotted #cc4444;
+    color: #FE596A;
+}
+#lyk_cart a:hover{
+    background-color: #8b4513;
+    color: #fff;
+}
+#lyk_search{
+    float: left;
+    margin-left: 20px;
+    width: 600px;
+    height: 80px;
+    padding-top: 10px;
+}
+#lyk_search_dir{
+    width: 600px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+#lyk_search_dir li{
+    float: left;
+    width: 60px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+#lyk_search_dir_on{
+    background-color: #CC0000;
+    color: #fff;
+}
+
+#lyk_keywords{
+    width: 450px;
+    height: 20px;
+    padding: 5px 10px;
+    border: 2px solid #CC0000;
+}
+#lyk_submit{
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    height: 34px;
+    background-color: #CC0000;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
@@ -185,9 +310,9 @@ visibility:hidden;
   padding:0 15px; background:url(images/NavBg.gif) no-repeat 0 0; position:relative;
   margin-right:2px; color:#fff; text-decoration:none; font-weight:bold;
   }
-  #mainNav a:hover span,#mainNav .cur span{width:3px; height:26px; background:url(images/NavBg.gif) no-repeat 0 -59px;
-  position:absolute; top:0px; right:0px;
-  }
+  /*#mainNav a:hover span,#mainNav .cur span{width:3px; height:26px; background:url(images/NavBg.gif) no-repeat 0 -59px;*/
+  /*position:absolute; top:0px; right:0px;*/
+  /*}*/
   /*搜索*/
   #search{border:1px solid #5cb4e6; background:url(images/searchBg.gif) repeat-x left top; width:918px;
   padding:0px 20px; height:36px; line-height:36px;

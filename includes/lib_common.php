@@ -228,6 +228,23 @@ function &init_users()
 }
 
 /**
+ * lyk ---------------------------
+ * 获取大型分类
+ * 用于搜索的分类
+ * lyk ---------------------------
+ */
+function lyk_cat_big_list()
+{
+    $sql = "SELECT * FROM ".$GLOBALS['ecs']->table('category')." WHERE parent_id = 0";
+    $res = $GLOBALS['db']->getAll($sql);
+    foreach  ( $res as $k => $v )
+    {
+        $data[] = $v['cat_name'];
+    }
+    return $data;
+}
+
+/**
  * 获得指定分类下的子分类的数组
  *
  * @access  public

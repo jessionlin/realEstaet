@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 {if $user_info}
 <div id="lyk_user">
-    {$user_info.username} {$lang.welcome_return}
+    {$user_info.hello},<strong>{$user_info.username}</strong> {$lang.welcome_return}
     <a href="user.php">{$lang.user_center}</a>|
     <a href="user.php?act=logout">{$lang.user_logout}</a>
 </div>
