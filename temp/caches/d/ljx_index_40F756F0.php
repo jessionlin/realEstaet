@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:8:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:77:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_new_articles.lbi";i:4;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:5;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:6;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475681431;s:8:"maketime";i:1475677831;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:8:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:77:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_new_articles.lbi";i:4;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:5;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:6;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475684912;s:8:"maketime";i:1475681312;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -83,7 +83,7 @@
                           <div class="ljx_NewsList ljx_tc">
                            
                   
-                               <ul>
+                          <ul>
             <li>
      	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
      	</li>
@@ -151,7 +151,7 @@ scrollAmount=3><U><FONT color=red>
         <div class="ljx_NewsTit"></div>
         <div class="ljx_NewsList ljx_tc">
          
-             <ul>
+        <ul>
             <li>
      	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
      	</li>
@@ -272,6 +272,5 @@ scrollAmount=3><U><FONT color=red>
 >&nbsp;&nbsp;Licensed</a><br />
         <div align="left"  id="rss"><a href="feed.php"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>
-</div>
-</body>
+</div></body>
 </html>
