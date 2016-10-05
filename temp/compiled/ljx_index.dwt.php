@@ -24,8 +24,31 @@
         <div class="ljx_f_l" id="focus">
                <?php echo $this->fetch('library/ljx_index_ab.lbi'); ?>
         </div>
+         
+                         <div id="ljx_mallNews" class="f_r">
+                          <div class="ljx_NewsTit"></div>
+                          <div class="ljx_NewsList ljx_tc">
+                           
+                  
+                          <?php echo $this->fetch('library/ljx_new_articles.lbi'); ?>
+                          </div>
+                         </div>
+                         
+                         <div class="block ljx_clearfix">
+                           
+                           <div class="ljx_areaL">
+                             
+                             <div class="box">
+                              <div class="box_1">
+                               <h3><span><?php echo $this->_var['lang']['shop_notice']; ?></span></h3>
+                               <div class="boxCenterList RelaArticle">
+                                 <?php echo $this->_var['shop_notice']; ?>
+                               </div>
+                              </div>
+                             </div>
+                             <div class="blank5"></div>
   </div>
-<div class="block ljx_clearfix">
+<!--<div class="block ljx_clearfix">
   
   <div class="ljx_areaL">
     
@@ -37,56 +60,23 @@
       </div>
      </div>
     </div>
-    <div class="blank5"></div>
-    
-  
-<?php echo $this->fetch('library/cart.lbi'); ?>
-<?php echo $this->fetch('library/category_tree.lbi'); ?>
-<?php echo $this->fetch('library/top10.lbi'); ?>
-<?php echo $this->fetch('library/promotion_info.lbi'); ?>
-<?php echo $this->fetch('library/order_query.lbi'); ?>
-<?php echo $this->fetch('library/invoice_query.lbi'); ?>
-<?php echo $this->fetch('library/vote_list.lbi'); ?>
-<?php echo $this->fetch('library/email_list.lbi'); ?>
-
-
-  </div>
+    <div class="blank5"></div>-->
   
   
-  <div class="AreaR">
+  <div class="ljx_AreaR">
    
-    <div class="box clearfix">
-     <div class="box_1 clearfix">
-       
-       <div id="mallNews" class="f_r">
-        <div class="NewsTit"></div>
-        <div class="NewsList tc">
+       <!--news
+       <div id="ljx_mallNews" class="f_r">
+        <div class="ljx_NewsTit"></div>
+        <div class="ljx_NewsList ljx_tc">
          
 
-        <?php echo $this->fetch('library/new_articles.lbi'); ?>
+        <?php echo $this->fetch('library/ljx_new_articles.lbi'); ?>
         </div>
        </div>
-       
-     </div>
-    </div>
-    <div class="blank5"></div>
+       -->
    
    
-    <div class="clearfix">
-      
-      <?php echo $this->fetch('library/recommend_promotion.lbi'); ?>
-      
-      <div class="box f_r brandsIe6">
-       <div class="box_1 clearfix" id="brands">
-        <?php echo $this->fetch('library/brands.lbi'); ?>
-       </div>
-      </div>
-    </div>
-    <div class="blank5"></div>
-   
-<?php echo $this->fetch('library/recommend_best.lbi'); ?>
-<?php echo $this->fetch('library/recommend_new.lbi'); ?>
-<?php echo $this->fetch('library/recommend_hot.lbi'); ?>
 <?php echo $this->fetch('library/auction.lbi'); ?>
 <?php echo $this->fetch('library/group_buy.lbi'); ?>
 

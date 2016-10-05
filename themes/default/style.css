@@ -178,11 +178,16 @@ Template Type: type_0
 }
 .ljx_clearfix{
     width: 1200px;
-    height: 1658px;
+    height: auto;
     position:relative;
-    margin-top: 15px;
+    margin-top: -115px;
+    z-index: 999;
+    opacity: 0.6;
 }
-
+.ljx_f_l{
+    z-index: 1;
+    position: relative;
+}
 .ljx_center{
     width: 1215px;
     margin-top: 0px;
@@ -190,17 +195,56 @@ Template Type: type_0
 }
 .ljx_photo{
     width:100%;
-    height: 100%;
+    height: auto;
 }
 
 .ljx_photo img{
     width:100%;
-    height: 100%;
+    height: auto;
+}
+.ljx_areaR{
+    width:100px;
+    position: relative;
+    float: right;
 }
 
+.lj_clearfix {
+    width: 250px;
+}
+#ljx_mallNews{
+    width:230px;
+    padding:8px 8px 0px 8px;
+    background:url(images/foucsBg.gif) repeat left top;
+    z-index: 999;
+    position: relative;
+    margin-top: -505px;
+    margin-right: 961px;
+    opacity: 0.6;
+}
 
-
-
+#ljx_mallNews .ljx_NewsTit{
+    background:url(images/bg.gif) 0px -132px;
+    height:23px;
+}
+#ljx_mallNews .ljx_NewsList{
+    background:#FFFFFF;
+    padding:8px;
+}
+#ljx_mallNews .ljx_NewsList ul{
+    margin-top:0px;
+    height: auto;
+}
+#ljx_mallNews .ljx_NewsList li{
+    background:url(images/bg.gif) no-repeat 0px -167px;
+    padding:0px 0px 0px 10px;
+    text-align:left;
+}
+#ljx_mallNews .ljx_NewsList li a{
+    text-decoration: none;
+}
+#ljx_mallNews .ljx_NewsList li a:hover{
+    color:red;
+}
 
 
 
@@ -215,7 +259,7 @@ h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p{
 margin:0; padding:0; border:none; list-style-type:none;
 }
 .block{
-  width:1200px; height:1658px;
+  width:1200px; height:auto;
 }
 .f_l{float:left;}
 .f_r{float:right;}
@@ -322,18 +366,18 @@ visibility:hidden;
   #topNav a{color:#006ad0; text-decoration:none;}
   /*页面主导航*/
   #mainNav{padding:0 25px; width:910px;}
-  #mainNav a{display:block; height:26p; float:left; line-height:26px; text-align:center;
+  #mainNav a{display:block; height:26px; float:left; line-height:26px; text-align:center;
   padding:0 15px; background:url(images/NavBg.gif) no-repeat 0 -29px; position:relative;
   margin-right:2px; color:#026acb; text-decoration:none;
   }
   #mainNav a span{width:3px; height:26px; background:url(images/NavBg.gif) no-repeat 0 -88px;
   position:absolute; top:0px; right:0px;
   }
-  #mainNav a:hover{display:block; height:26p; float:left; line-height:26px; text-align:center;
+  #mainNav a:hover{display:block; height:26px; float:left; line-height:26px; text-align:center;
   padding:0 15px; background:url(images/NavBg.gif) no-repeat 0 0; position:relative;
   margin-right:2px; color:#fff; text-decoration:none;
   }
-  #mainNav .cur{display:block; height:26p; float:left; line-height:26px; text-align:center;
+  #mainNav .cur{display:block; height:26px; float:left; line-height:26px; text-align:center;
   padding:0 15px; background:url(images/NavBg.gif) no-repeat 0 0; position:relative;
   margin-right:2px; color:#fff; text-decoration:none; font-weight:bold;
   }

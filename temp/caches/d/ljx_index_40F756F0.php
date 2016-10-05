@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:21:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/cart.lbi";i:4;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/category_tree.lbi";i:5;s:66:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/top10.lbi";i:6;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/promotion_info.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/order_query.lbi";i:8;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/invoice_query.lbi";i:9;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/vote_list.lbi";i:10;s:71:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/email_list.lbi";i:11;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/new_articles.lbi";i:12;s:80:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_promotion.lbi";i:13;s:67:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/brands.lbi";i:14;s:75:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_best.lbi";i:15;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_new.lbi";i:16;s:74:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/recommend_hot.lbi";i:17;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:18;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:19;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:20;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475592353;s:8:"maketime";i:1475588753;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:8:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:77:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_new_articles.lbi";i:4;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:5;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:6;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475681431;s:8:"maketime";i:1475677831;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -77,8 +77,57 @@
   </script>
   <script type="text/javascript" src="data/flashdata/dynfocus/cycle_image.js"></script>
         </div>
+         
+                         <div id="ljx_mallNews" class="f_r">
+                          <div class="ljx_NewsTit"></div>
+                          <div class="ljx_NewsList ljx_tc">
+                           
+                  
+                               <ul>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=32" title="手机游戏下载">手机游戏下载</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=30" title="促销诺基亚N96">促销诺基亚N96</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=29" title="诺基亚5320 促销">诺基亚5320 促销</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=34" title="3G知识普及">3G知识普及</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=31" title="诺基亚6681手机广告欣赏">诺基亚6681手机广...</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=28" title="飞利浦9@9促销">飞利浦9@9促销</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=4">3G资讯</a>] <a href="article.php?id=27" title="800万像素超强拍照机 LG Viewty Smart再曝光">800万像素超强拍照...</a>
+     	</li>
+          </ul>                          </div>
+                         </div>
+                         
+                         <div class="block ljx_clearfix">
+                           
+                           <div class="ljx_areaL">
+                             
+                             <div class="box">
+                              <div class="box_1">
+                               <h3><span>商店公告</span></h3>
+                               <div class="boxCenterList RelaArticle">
+                                 欢迎光临手机网,我们的宗旨：诚信经营、服务客户！
+<MARQUEE onmouseover=this.stop() onmouseout=this.start() 
+scrollAmount=3><U><FONT color=red>
+<P>咨询电话010-10124444  010-21252454 8465544</P></FONT></U></MARQUEE>                               </div>
+                              </div>
+                             </div>
+                             <div class="blank5"></div>
   </div>
-<div class="block ljx_clearfix">
+<!--<div class="block ljx_clearfix">
   
   <div class="ljx_areaL">
     
@@ -92,521 +141,46 @@ scrollAmount=3><U><FONT color=red>
 <P>咨询电话010-10124444  010-21252454 8465544</P></FONT></U></MARQUEE>      </div>
      </div>
     </div>
-    <div class="blank5"></div>
-    
-  
-<script type="text/javascript" src="js/transport.js"></script><div class="cart" id="ECS_CARTINFO">
- 554fcae493e564ee0dc75bdf2ebf94cacart_info|a:1:{s:4:"name";s:9:"cart_info";}554fcae493e564ee0dc75bdf2ebf94ca</div>
-<div class="blank5"></div>
-<div class="box">
- <div class="box_1">
-  <div id="category_tree">
-         <dl>
-     <dt><a href="category.php?id=1">手机类型</a></dt>
-          <dd><a href="category.php?id=2">CDMA手机</a></dd>
-                 <dd><a href="category.php?id=3">GSM手机</a></dd>
-                 <dd><a href="category.php?id=4">3G手机</a></dd>
-                 <dd><a href="category.php?id=5">双模手机</a></dd>
-                   
-       </dl>
-         <dl>
-     <dt><a href="category.php?id=6">手机配件</a></dt>
-          <dd><a href="category.php?id=7">充电器</a></dd>
-                 <dd><a href="category.php?id=8">耳机</a></dd>
-                 <dd><a href="category.php?id=9">电池</a></dd>
-                 <dd><a href="category.php?id=11">读卡器和内存卡</a></dd>
-                   
-       </dl>
-         <dl>
-     <dt><a href="category.php?id=12">充值卡</a></dt>
-          <dd><a href="category.php?id=13">小灵通/固话充值卡</a></dd>
-                 <dd><a href="category.php?id=14">移动手机充值卡</a></dd>
-                 <dd><a href="category.php?id=15">联通手机充值卡</a></dd>
-                   
-       </dl>
-     
-  </div>
- </div>
-</div>
-<div class="blank5"></div>
-<div class="box">
- <div class="box_2">
-  <div class="top10Tit"></div>
-  <div class="top10List clearfix">
-    <ul class="clearfix">
-	<img src="themes/default/images/top_1.gif" class="iteration" />
-	      <li class="topimg">
-      <a href="goods.php?id=3"><img src="images/200905/thumb_img/3_thumb_G_1241422082679.jpg" alt="" class="samllimg" /></a>
-      </li>
-			
-      <li class="iteration1">
-      <a href="goods.php?id=3" title="">诺基亚原装58...</a><br />
-      本店售价：<font class="f1">￥68元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_2.gif" class="iteration" />
-	      <li class="topimg">
-      <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="" class="samllimg" /></a>
-      </li>
-			
-      <li class="iteration1">
-      <a href="goods.php?id=24" title="">P806</a><br />
-      本店售价：<font class="f1">￥2000元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_3.gif" class="iteration" />
-	      <li class="topimg">
-      <a href="goods.php?id=12"><img src="images/200905/thumb_img/12_thumb_G_1241965978410.jpg" alt="" class="samllimg" /></a>
-      </li>
-			
-      <li class="iteration1">
-      <a href="goods.php?id=12" title="">摩托罗拉A81...</a><br />
-      本店售价：<font class="f1">￥983元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_4.gif" class="iteration" />
-			
-      <li >
-      <a href="goods.php?id=9" title="">诺基亚E66</a><br />
-      本店售价：<font class="f1">￥2298元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_5.gif" class="iteration" />
-			
-      <li >
-      <a href="goods.php?id=22" title="">多普达Touc...</a><br />
-      本店售价：<font class="f1">￥5999元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_6.gif" class="iteration" />
-			
-      <li >
-      <a href="goods.php?id=20" title="">三星BC01</a><br />
-      本店售价：<font class="f1">￥280元</font><br />
-      </li>
-    </ul>
-    <ul class="clearfix">
-	<img src="themes/default/images/top_7.gif" class="iteration" />
-			
-      <li >
-      <a href="goods.php?id=8" title="">飞利浦9@9v</a><br />
-      本店售价：<font class="f1">￥399元</font><br />
-      </li>
-    </ul>
-    </div>
- </div>
-</div>
-<div class="blank5"></div>
-<script>var invalid_order_sn = "无效订单号"</script>
-<div class="box">
- <div class="box_1">
-  <h3><span>订单查询</span></h3>
-  <div class="boxCenterList">
-    <form name="ecsOrderQuery">
-    <input type="text" name="order_sn" class="inputBg" /><br />
-    <div class="blank5"></div>
-    <input type="button" value="查询该订单号" class="bnt_blue_2" onclick="orderQuery()" />
-    </form>
-    <div id="ECS_ORDER_QUERY" style="margin-top:8px;">
-          </div>
-  </div>
- </div>
-</div>
-<div class="blank5"></div>
-<style type="text/css">
-.boxCenterList form{display:inline;}
-.boxCenterList form a{color:#404040; text-decoration:underline;}
-</style>
-<div class="box">
- <div class="box_1">
-  <h3><span>发货查询</span></h3>
-  <div class="boxCenterList">
-       订单号 2009061909851<br />
-   发货单 232421   <div class="blank"></div>
-      订单号 2009052224892<br />
-   发货单 1123344   <div class="blank"></div>
-     </div>
- </div>
-</div>
-<div class="blank5"></div>
-554fcae493e564ee0dc75bdf2ebf94cavote|a:1:{s:4:"name";s:4:"vote";}554fcae493e564ee0dc75bdf2ebf94ca<div class="box">
- <div class="box_1">
-  <h3><span>邮件订阅</span></h3>
-  <div class="boxCenterList RelaArticle">
-    <input type="text" id="user_email" class="inputBg" /><br />
-    <div class="blank5"></div>
-    <input type="button" class="bnt_blue" value="订阅" onclick="add_email_list();" />
-    <input type="button" class="bnt_bonus"  value="退订" onclick="cancel_email_list();" />
-  </div>
- </div>
-</div>
-<div class="blank5"></div>
-<script type="text/javascript">
-var email = document.getElementById('user_email');
-function add_email_list()
-{
-  if (check_email())
-  {
-    Ajax.call('user.php?act=email_list&job=add&email=' + email.value, '', rep_add_email_list, 'GET', 'TEXT');
-  }
-}
-function rep_add_email_list(text)
-{
-  alert(text);
-}
-function cancel_email_list()
-{
-  if (check_email())
-  {
-    Ajax.call('user.php?act=email_list&job=del&email=' + email.value, '', rep_cancel_email_list, 'GET', 'TEXT');
-  }
-}
-function rep_cancel_email_list(text)
-{
-  alert(text);
-}
-function check_email()
-{
-  if (Utils.isEmail(email.value))
-  {
-    return true;
-  }
-  else
-  {
-    alert('邮件地址非法！');
-    return false;
-  }
-}
-</script>
-  </div>
+    <div class="blank5"></div>-->
   
   
-  <div class="AreaR">
+  <div class="ljx_AreaR">
    
-    <div class="box clearfix">
-     <div class="box_1 clearfix">
-       
-       <div id="mallNews" class="f_r">
-        <div class="NewsTit"></div>
-        <div class="NewsList tc">
+       <!--news
+       <div id="ljx_mallNews" class="f_r">
+        <div class="ljx_NewsTit"></div>
+        <div class="ljx_NewsList ljx_tc">
          
-        <ul>
-  <li>
-	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=32" title="手机游戏下载">手机游戏下载</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=30" title="促销诺基亚N96">促销诺基亚N96</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=29" title="诺基亚5320 促销">诺基亚5320 促销</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=34" title="3G知识普及">3G知识普及</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=31" title="诺基亚6681手机广告欣赏">诺基亚6681手机广...</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=28" title="飞利浦9@9促销">飞利浦9@9促销</a>
-	</li>
-  <li>
-	[<a href="article_cat.php?id=4">3G资讯</a>] <a href="article.php?id=27" title="800万像素超强拍照机 LG Viewty Smart再曝光">800万像素超强拍照...</a>
-	</li>
-</ul>        </div>
+             <ul>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=32" title="手机游戏下载">手机游戏下载</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=30" title="促销诺基亚N96">促销诺基亚N96</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=29" title="诺基亚5320 促销">诺基亚5320 促销</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=34" title="3G知识普及">3G知识普及</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=31" title="诺基亚6681手机广告欣赏">诺基亚6681手机广...</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=11">手机促销</a>] <a href="article.php?id=28" title="飞利浦9@9促销">飞利浦9@9促销</a>
+     	</li>
+            <li>
+     	[<a href="article_cat.php?id=4">3G资讯</a>] <a href="article.php?id=27" title="800万像素超强拍照机 LG Viewty Smart再曝光">800万像素超强拍照...</a>
+     	</li>
+          </ul>        </div>
        </div>
-       
-     </div>
-    </div>
-    <div class="blank5"></div>
+       -->
    
    
-    <div class="clearfix">
-      
-            
-      <div class="box f_r brandsIe6">
-       <div class="box_1 clearfix" id="brands">
-                            <a href="brand.php?id=1"><img src="data/brandlogo/1240803062307572427.gif" alt="诺基亚 (7)" /></a>
-                              <a href="brand.php?id=2"><img src="data/brandlogo/1240802922410634065.gif" alt="摩托罗拉 (1)" /></a>
-                              <a href="brand.php?id=3"><img src="data/brandlogo/1240803144788047486.gif" alt="多普达 (1)" /></a>
-                              <a href="brand.php?id=4"><img src="data/brandlogo/1240803247838195732.gif" alt="飞利浦 (1)" /></a>
-                              <a href="brand.php?id=5"><img src="data/brandlogo/1240803352280856940.gif" alt="夏新 (1)" /></a>
-                              <a href="brand.php?id=6"><img src="data/brandlogo/1240803412367015368.gif" alt="三星 (2)" /></a>
-                              <a href="brand.php?id=7"><img src="data/brandlogo/1240803482283160654.gif" alt="索爱 (2)" /></a>
-                              <a href="brand.php?id=8"><img src="data/brandlogo/1240803526904622792.gif" alt="LG (1)" /></a>
-                              <a href="brand.php?id=9"><img src="data/brandlogo/1240803578417877983.gif" alt="联想 (1)" /></a>
-                              <a href="brand.php?id=10">金立 (1)</a>
-            <div class="brandsMore"><a href="brand.php"><img src="themes/default/images/moreBrands.gif" /></a></div>
-       </div>
-      </div>
-    </div>
-    <div class="blank5"></div>
-   
-<div class="box">
-<div class="box_2 centerPadd">
-  <div class="itemTit" id="itemBest">
-            <h2><a href="javascript:void(0)" onclick="change_tab_style('itemBest', 'h2', this);get_cat_recommend(1, 0);">全部商品</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemBest', 'h2', this);get_cat_recommend(1, 3)">GSM手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemBest', 'h2', this);get_cat_recommend(1, 5)">双模手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemBest', 'h2', this);get_cat_recommend(1, 12)">充值卡</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemBest', 'h2', this);get_cat_recommend(1, 15)">联通手机充值卡</a></h2>
-              </div>
-  <div id="show_best_area" class="clearfix goodsBox">
-      <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=9"><img src="images/200905/thumb_img/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=9" title="诺基亚E66">诺基亚E66</a></p>
-           <font class="f1">
-                     ￥2298元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=1"><img src="images/200905/thumb_img/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=1" title="KD876">KD876</a></p>
-           <font class="f1">
-                     ￥1388元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=8"><img src="images/200905/thumb_img/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=8" title="飞利浦9@9v">飞利浦9@9v</a></p>
-           <font class="f1">
-                     ￥399元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=17"><img src="images/200905/thumb_img/17_thumb_G_1241969394587.jpg" alt="夏新N7" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=17" title="夏新N7">夏新N7</a></p>
-           <font class="f1">
-                     ￥2300元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=19"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F258" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=19" title="三星SGH-F258">三星SGH-F...</a></p>
-           <font class="f1">
-                     ￥858元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=20"><img src="images/200905/thumb_img/20_thumb_G_1242106490058.jpg" alt="三星BC01" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=20" title="三星BC01">三星BC01</a></p>
-           <font class="f1">
-                     ￥280元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=22"><img src="images/200905/thumb_img/22_thumb_G_1241971076803.jpg" alt="多普达Touch HD" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=22" title="多普达Touch HD">多普达Touc...</a></p>
-           <font class="f1">
-                     ￥5999元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=23"><img src="images/200905/thumb_img/23_thumb_G_1241971556399.jpg" alt="诺基亚N96" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=23" title="诺基亚N96">诺基亚N96</a></p>
-           <font class="f1">
-                     ￥3700元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=24" title="P806">P806</a></p>
-           <font class="f1">
-                     ￥2000元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="best"></span>
-           <a href="goods.php?id=27"><img src="images/200905/thumb_img/27_thumb_G_1241972894068.jpg" alt="联通100元充值卡" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=27" title="联通100元充值卡">联通100元充...</a></p>
-           <font class="f1">
-                     ￥95元                     </font>
-        </div>
-    <div class="more"><a href="search.php?intro=best"><img src="themes/default/images/more.gif" /></a></div>
-    </div>
-</div>
-</div>
-<div class="blank5"></div>
-  <div class="box">
-<div class="box_2 centerPadd">
-  <div class="itemTit New" id="itemNew">
-            <h2><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 0);">全部商品</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 3)">GSM手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 5)">双模手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 12)">充值卡</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 14)">移动手机充值卡</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemNew', 'h2', this);get_cat_recommend(2, 15)">联通手机充值卡</a></h2>
-              </div>
-  <div id="show_new_area" class="clearfix goodsBox">
-      <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=9"><img src="images/200905/thumb_img/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=9" title="诺基亚E66">诺基亚E66</a></p>
-           <font class="f1">
-                     ￥2298元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=1"><img src="images/200905/thumb_img/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=1" title="KD876">KD876</a></p>
-           <font class="f1">
-                     ￥1388元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=8"><img src="images/200905/thumb_img/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=8" title="飞利浦9@9v">飞利浦9@9v</a></p>
-           <font class="f1">
-                     ￥399元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=19"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F258" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=19" title="三星SGH-F258">三星SGH-F...</a></p>
-           <font class="f1">
-                     ￥858元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=20"><img src="images/200905/thumb_img/20_thumb_G_1242106490058.jpg" alt="三星BC01" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=20" title="三星BC01">三星BC01</a></p>
-           <font class="f1">
-                     ￥280元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=22"><img src="images/200905/thumb_img/22_thumb_G_1241971076803.jpg" alt="多普达Touch HD" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=22" title="多普达Touch HD">多普达Touc...</a></p>
-           <font class="f1">
-                     ￥5999元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=23"><img src="images/200905/thumb_img/23_thumb_G_1241971556399.jpg" alt="诺基亚N96" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=23" title="诺基亚N96">诺基亚N96</a></p>
-           <font class="f1">
-                     ￥3700元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=24" title="P806">P806</a></p>
-           <font class="f1">
-                     ￥2000元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=32"><img src="images/200905/thumb_img/32_thumb_G_1242110760196.jpg" alt="诺基亚N85" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=32" title="诺基亚N85">诺基亚N85</a></p>
-           <font class="f1">
-                     ￥3010元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="news"></span>
-           <a href="goods.php?id=12"><img src="images/200905/thumb_img/12_thumb_G_1241965978410.jpg" alt="摩托罗拉A810" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=12" title="摩托罗拉A810">摩托罗拉A81...</a></p>
-           <font class="f1">
-                     ￥983元                     </font>
-        </div>
-    <div class="more"><a href="search.php?intro=new"><img src="themes/default/images/more.gif" /></a></div>
-    </div>
-</div>
-</div>
-<div class="blank5"></div>
-  <div class="box">
-<div class="box_2 centerPadd">
-  <div class="itemTit Hot" id="itemHot">
-            <h2><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 0);">全部商品</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 3)">GSM手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 5)">双模手机</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 12)">充值卡</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 13)">小灵通/固话充值卡</a></h2>
-            <h2 class="h2bg"><a href="javascript:void(0)" onclick="change_tab_style('itemHot', 'h2', this);get_cat_recommend(3, 14)">移动手机充值卡</a></h2>
-              </div>
-  <div id="show_hot_area" class="clearfix goodsBox">
-      <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=9"><img src="images/200905/thumb_img/9_thumb_G_1241511871555.jpg" alt="诺基亚E66" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=9" title="诺基亚E66">诺基亚E66</a></p>
-           <font class="f1">
-                     ￥2298元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=1"><img src="images/200905/thumb_img/1_thumb_G_1240902890710.jpg" alt="KD876" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=1" title="KD876">KD876</a></p>
-           <font class="f1">
-                     ￥1388元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=8"><img src="images/200905/thumb_img/8_thumb_G_1241425513488.jpg" alt="飞利浦9@9v" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=8" title="飞利浦9@9v">飞利浦9@9v</a></p>
-           <font class="f1">
-                     ￥399元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=13"><img src="images/200905/thumb_img/13_thumb_G_1241968002527.jpg" alt="诺基亚5320 XpressMusic" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=13" title="诺基亚5320 XpressMusic">诺基亚5320...</a></p>
-           <font class="f1">
-                     ￥1311元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=14"><img src="images/200905/thumb_img/14_thumb_G_1241968492116.jpg" alt="诺基亚5800XM" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=14" title="诺基亚5800XM">诺基亚5800...</a></p>
-           <font class="f1">
-                     ￥2625元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=17"><img src="images/200905/thumb_img/17_thumb_G_1241969394587.jpg" alt="夏新N7" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=17" title="夏新N7">夏新N7</a></p>
-           <font class="f1">
-                     ￥2300元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=19"><img src="images/200905/thumb_img/19_thumb_G_1241970175208.jpg" alt="三星SGH-F258" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=19" title="三星SGH-F258">三星SGH-F...</a></p>
-           <font class="f1">
-                     ￥858元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=20"><img src="images/200905/thumb_img/20_thumb_G_1242106490058.jpg" alt="三星BC01" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=20" title="三星BC01">三星BC01</a></p>
-           <font class="f1">
-                     ￥280元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=24" title="P806">P806</a></p>
-           <font class="f1">
-                     ￥2000元                     </font>
-        </div>
-    <div class="goodsItem">
-         <span class="hot"></span>
-           <a href="goods.php?id=32"><img src="images/200905/thumb_img/32_thumb_G_1242110760196.jpg" alt="诺基亚N85" class="goodsimg" /></a><br />
-           <p><a href="goods.php?id=32" title="诺基亚N85">诺基亚N85</a></p>
-           <font class="f1">
-                     ￥3010元                     </font>
-        </div>
-    <div class="more"><a href="search.php?intro=hot"><img src="themes/default/images/more.gif" /></a></div>
-    </div>
-</div>
-</div>
-<div class="blank5"></div>
-  
   </div>
   
 </div>

@@ -1,12 +1,12 @@
-<?php $_from = $this->_var['attribute_linked']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'linked');if (count($_from)):
-    foreach ($_from AS $this->_var['linked']):
+<?php $_from = $this->_var['attribute_linked']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'linked_0_41131200_1475669919');if (count($_from)):
+    foreach ($_from AS $this->_var['linked_0_41131200_1475669919']):
 ?>
-<?php if ($this->_var['linked']['goods']): ?>
+<?php if ($this->_var['linked_0_41131200_1475669919']['goods']): ?>
 <div class="box">
  <div class="box_1">
-  <h3><span title="<?php echo $this->_var['linked']['title']; ?>"><?php echo sub_str($this->_var['linked']['title'],11); ?></span></h3>
+  <h3><span title="<?php echo $this->_var['linked_0_41131200_1475669919']['title']; ?>"><?php echo sub_str($this->_var['linked_0_41131200_1475669919']['title'],11); ?></span></h3>
   <div class="boxCenterList clearfix">
-  <?php $_from = $this->_var['linked']['goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'linked_goods_data');if (count($_from)):
+  <?php $_from = $this->_var['linked_0_41131200_1475669919']['goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'linked_goods_data');if (count($_from)):
     foreach ($_from AS $this->_var['linked_goods_data']):
 ?>
   <ul class="clearfix">
