@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:8:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:73:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_index_ab.lbi";i:3;s:77:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_new_articles.lbi";i:4;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:5;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:6;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:7;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475684912;s:8:"maketime";i:1475681312;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:62:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/ljx_index.dwt";i:1;s:76:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/lyk_page_header.lbi";i:2;s:77:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/ljx_new_articles.lbi";i:3;s:68:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/auction.lbi";i:4;s:70:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/group_buy.lbi";i:5;s:65:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/help.lbi";i:6;s:72:"E:/xampp/htdocs/ecshop/realEstaet/themes/default/library/page_footer.lbi";}s:7:"expires";i:1475747176;s:8:"maketime";i:1475743576;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -71,19 +71,49 @@
 </div><div class="blank"></div>
   <div class="ljx_center">
         <div class="ljx_f_l" id="focus">
-                 <script type="text/javascript">
-  var swf_width=1200;
-  var swf_height=496;
-  </script>
-  <script type="text/javascript" src="data/flashdata/dynfocus/cycle_image.js"></script>
+               <div class="ljx_image">
+               	<ul id="ljx_images">
+               		<li class="ljx_display"><a href="#"><img src="data/afficheimg/first.png"></a></li>
+               		<li><a href="#"><img src="data/afficheimg/second.png"></a></li>
+               		<li><a href="#"><img src="data/afficheimg/third.png"></a></li>
+               	</ul>
+               	<ul class="ljx_btn">
+               		<li><div onclick="change(1)"><span>1</span></div></li>
+               		<li><div onclick="change(2)"><span>2</span></div></li>
+               		<li><div onclick="change(3)"><span>3</span></div></li>
+               	</ul>
+               </div>
         </div>
+        <script type="text/javascript">
+        var img = document.getElementById("ljx_images").getElementsByTagName("li");
+        img[0].className="ljx_display";
+        function change(num){
+        	for(var i=0;i<img.length;i++){
+        		img[i].className="";
+        	}
+        	console.log(1);
+        	img[num-1].className="ljx_display";
+        }
+        var timer = setInterval(function(){
+        	var n;
+        	for(var i=0;i<img.length;i++){
+        		if(img[i].className=="ljx_display"){
+        			n = i;
+        		}
+        		img[i].className="";
+        	}
+        	if(n<img.length-1)
+        	img[n+1].className="ljx_display";
+        	else img[0].className="ljx_display";
+        },3000);
+        </script>
          
                          <div id="ljx_mallNews" class="f_r">
                           <div class="ljx_NewsTit"></div>
                           <div class="ljx_NewsList ljx_tc">
                            
                   
-                          <ul>
+                               <ul>
             <li>
      	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
      	</li>
@@ -151,7 +181,7 @@ scrollAmount=3><U><FONT color=red>
         <div class="ljx_NewsTit"></div>
         <div class="ljx_NewsList ljx_tc">
          
-        <ul>
+             <ul>
             <li>
      	[<a href="article_cat.php?id=12">站内快讯</a>] <a href="article.php?id=33" title="三星SGHU308说明书下载">三星SGHU308说...</a>
      	</li>
@@ -272,5 +302,6 @@ scrollAmount=3><U><FONT color=red>
 >&nbsp;&nbsp;Licensed</a><br />
         <div align="left"  id="rss"><a href="feed.php"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>
-</div></body>
+</div>
+</body>
 </html>

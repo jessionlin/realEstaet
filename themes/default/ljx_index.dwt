@@ -21,8 +21,42 @@
 <div class="blank"></div>
   <div class="ljx_center">
         <div class="ljx_f_l" id="focus">
-               <!-- #BeginLibraryItem "/library/ljx_index_ab.lbi" --><!-- #EndLibraryItem -->
+               <div class="ljx_image">
+               	<ul id="ljx_images">
+               		<li class="ljx_display"><a href="#"><img src="../data/afficheimg/first.png"></a></li>
+               		<li><a href="#"><img src="../data/afficheimg/second.png"></a></li>
+               		<li><a href="#"><img src="../data/afficheimg/third.png"></a></li>
+               	</ul>
+               	<ul class="ljx_btn">
+               		<li><div onclick="change(1)"><span>1</span></div></li>
+               		<li><div onclick="change(2)"><span>2</span></div></li>
+               		<li><div onclick="change(3)"><span>3</span></div></li>
+               	</ul>
+               </div>
         </div>
+        <script type="text/javascript">
+        var img = document.getElementById("ljx_images").getElementsByTagName("li");
+        img[0].className="ljx_display";
+        function change(num){
+        	for(var i=0;i<img.length;i++){
+        		img[i].className="";
+        	}
+        	console.log(1);
+        	img[num-1].className="ljx_display";
+        }
+        var timer = setInterval(function(){
+        	var n;
+        	for(var i=0;i<img.length;i++){
+        		if(img[i].className=="ljx_display"){
+        			n = i;
+        		}
+        		img[i].className="";
+        	}
+        	if(n<img.length-1)
+        	img[n+1].className="ljx_display";
+        	else img[0].className="ljx_display";
+        },3000);
+        </script>
          <!--news-->
                          <div id="ljx_mallNews" class="f_r">
                           <div class="ljx_NewsTit"></div>

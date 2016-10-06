@@ -175,6 +175,8 @@ Template Type: type_0
     width: 200px;
     position:relative;
     float: left;
+    margin-left:-566px;
+    margin-top: -100px;
 }
 .ljx_clearfix{
     width: 1200px;
@@ -217,7 +219,7 @@ Template Type: type_0
     background:url(images/foucsBg.gif) repeat left top;
     z-index: 999;
     position: relative;
-    margin-top: -505px;
+    margin-top: -520px;
     margin-right: 961px;
     opacity: 0.6;
 }
@@ -245,8 +247,71 @@ Template Type: type_0
 #ljx_mallNews .ljx_NewsList li a:hover{
     color:red;
 }
+.ljx_center .ljx_image .ljx_btn{
+    list-style: none;
+    z-index: 9;
+    width: 40%;
+    height: 30px;
+    position: relative;
+    margin-top: -50px;
+    margin-left:500px;
+}
+.ljx_center .ljx_image .ljx_btn li{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #E0E0E0;
+    position: relative;
+    float: left;
+    margin:1px;
+    top: -45px;
+    display: inline-block;
+}
+.ljx_center .ljx_image .ljx_btn li:hover{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    top: -50px;
+}
+.ljx_center .ljx_image .ljx_btn li span{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+}
 
-
+.ljx_center .ljx_image{
+    width: 1200px;
+    height: 496px;
+    z-index: 1;
+}
+.ljx_center .ljx_image #ljx_images{
+    position: relative;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+.ljx_center .ljx_image #ljx_images li a{
+    text-decoration: none;
+    position: relative;
+    margin:0;
+}
+.ljx_center .ljx_image #ljx_images li{
+    position: relative;
+    margin:0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: none;
+    /*margin-left: -41px;*/
+}
+.ljx_center .ljx_image #ljx_images li a img{
+    position: relative;
+    float: left;
+}
+.ljx_center .ljx_image #ljx_images .ljx_display{
+    display: block;
+    transition:all 300 ease 0;
+}
 
 
 
